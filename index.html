@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP my first Get request</title>
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <style>
+        body {
+          background-color: antiquewhite;
+        }
+        button {
+          background-color: black;
+          color: aliceblue;
+          border-radius: 8%;
+        }
+        button:hover {
+          background-color: aliceblue;
+          color: black;
+          border-radius: 8%;
+        }
+        div {
+          background-color: rgb(180, 255, 255, 0.3);
+          border: 3px solid black;
+        }
+        form {
+          background-color: rgb(180, 255, 255);
+          border: 0.5px solid black;
+        }
+      </style>
+      <form action="https://www.wikipedia.org" method="get" id="e">
+        <label for="h">Try wikipedia get method</label>
+        <input id="h" type="text" name="test" placeholder="Try get method" />
+        <button>Submit!</button>
+      </form>
+      <br />
+      <form action="https://www.wikipedia.org" method="post" id="f">
+        <label for="i">Try wikipedia post method</label>
+        <input id="i" type="text" placeholder="Try post method" name="user_test" />
+        <button>Submit!</button>
+      </form>
+      <form action="https://www.google.com" method="get" id="g">
+        <label for="j">Try Google get method</label>
+        <input id="j" type="text" placeholder="Try get method" name="user_search" />
+        <button>Submit!</button>
+      </form>
+    </div>
+  </body>
+</html>

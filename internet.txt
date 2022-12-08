@@ -1,0 +1,58 @@
+Hyper Text Transfer Protocol - 
+    An established set of rules for everyone to follow to make sure devices communicate correctly with each other. Allows a request to be made to a server and communciate back and forth.
+
+URL - 
+    Human readible address of resources available on the internet. www.google.com URL for google.
+
+DNS - 
+    Domain name service, translates human readible URL to computer readible. Handles so we can use human readible words as addresses for the web
+
+Query String - 
+    information sent to the server to get specific resources, a string of instructions on what to pull from the library and render on screen. What is sent along with the URL to get specific. 
+
+what are two HTTP verbs and how are they different. Get and Post. 
+    Get 
+        will get information and not change anything on the server, no side effects.
+    Post 
+        will send additional information in body of post and either update or create something on server, has side effects.
+
+HTTP request 
+    is a request for a specific resource on a server. It includes
+    Method
+    HTTP protocol version
+    Resource URL wanted
+    Headers
+        hostname
+        date
+        language
+        cookies
+        more...
+
+HTTP response
+    is what the server sends back to your request
+    HTTP protocol version
+    Status code; 200 ok, 300 redirect, 404 your not where you should be, 500 servers toast or internal problems
+    Headers 
+        Content type
+        Date/Time
+        cookies
+        Cache
+        more...
+
+HTTP Headers
+    Specific details to use to fulfill the request / post / verb. 
+    Language, date and time, hostname, caching info, etc.
+
+What are the processes that happen when you type http://somesite.com/some/page.html
+    Too many to list,
+
+    DNS changes somesite.com into an IP address, 
+    connects to that IP address on a specific port,
+    using the specified protocol HTTP 
+    sends a request to somesite.com asking for  /some/page.html
+    query string specifies exactly what is being asked for at resource
+    a response is sent back with the specific resources that were requested
+    other requests are made to all the various resource locations
+    other responses come in and then 
+    the languages are translated and rendered by your browser
+    
